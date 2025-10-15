@@ -1,4 +1,4 @@
-from classes import Monsters
+from monster_class import Monsters
 
 skeleton =Monsters("skeleton", 6,2,14)
 zombie = Monsters("zombie", 10,0,20)
