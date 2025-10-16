@@ -6,7 +6,7 @@ def roll_die(die_used):
 
 class Monsters:
     # these are the attribute that the monster class has
-    def __init__(self, monster_id, attack_die, monster_defence, monster_health):
+    def __init__(self, detection_skill, hide_skill, monster_id, attack_die, monster_defence, monster_health):
         self.id = monster_id
         self.attack = attack_die
         self.defence = monster_defence
