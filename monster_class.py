@@ -8,6 +8,8 @@ class Monsters:
     # these are the attribute that the monster class has
     def __init__(self, id, detection_skill, hide_skill, attack_die, monster_defence, monster_health):
         self.id = monster_id
+        self.detection = detection_skill
+        self.hide = hide_skill
         self.attack = attack_die
         self.defence = monster_defence
         self.health = monster_health
