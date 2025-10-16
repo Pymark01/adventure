@@ -7,7 +7,7 @@ def roll_die(die_used):
 
 class Player:
     # these attributes are the skills and the things the player has
-    def __init__(self, Id, detection_skill, hide_skill, attack_die, defend_skill, health):
+    def __init__(self, id, detection_skill, hide_skill, attack_die, defend_skill, health):
         #attributes that are skills
         self.detect = detection_skill
         self.hide = hide_skill
